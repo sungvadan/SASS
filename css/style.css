@@ -1,0 +1,25 @@
+body {
+  background-color: #262626; }
+
+header {
+  color: #9FBFBF;
+  margin: 20px 0 0 35%; }
+  header h1 {
+    color: red; }
+
+.grad {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white; }
+  .grad .intro, .grad .feature {
+    background-color: #333;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; }
+    .grad .intro .par1 a, .grad .feature .par1 a {
+      font-size: 30px; }
+  .grad .feature {
+    border: 1px solid yellow; }
+
+/*# sourceMappingURL=style.css.map */

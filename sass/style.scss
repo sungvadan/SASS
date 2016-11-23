@@ -1,0 +1,42 @@
+$blue:#9FBFBF;
+$margin: 25%;
+
+body{
+	background-color: #262626;
+}
+
+@mixin border-radius($radius: 20px){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+header{
+	color:$blue;
+	margin: 20px 0 0 $margin + 10%;
+	h1{
+		color: red;
+	}
+
+}
+
+.grad{
+	@include border-radius(5px);
+	background-color: white;
+	.intro{
+		background-color: #333;
+		@include border-radius(20px);
+		.par1 {
+			a{ 
+				font-size: 30px;
+			}
+		}	
+	}
+
+	.feature{
+		@extend .intro;
+		border:1px solid yellow;
+	}
+	
+}
+
